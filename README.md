@@ -1,2 +1,8 @@
-# Struggling
-Kottuka chastunna to learn GIT
+This is the new change
+
+
+#chNANGES MADE
+
+HKSHFJSGJLSLJBL
+
+
