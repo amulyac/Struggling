@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9993340059,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is in Add to Basket page",
+            "match": {
+              "location": "AddBasket_stepdef.user_is_in_Add_to_Basket_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4007528734,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitDriver()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Add to Basket successfully",
+        "description": "",
+        "id": "add-to-basket;add-to-basket-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 2722231380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.DisposeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1354884711,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User filled form with below details",
+            "match": {
+              "location": "AddBasket_stepdef.user_filled_form_with_below_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "gift message",
+                  "delivery date",
+                  "instructions",
+                  "extras",
+                  "parsonalization",
+                  "quantity"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "test",
+                  "test",
+                  "test",
+                  "random",
+                  "test",
+                  "1"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 921779051,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on ADD TO BASKET button",
+            "match": {
+              "location": "AddBasket_stepdef.click_on_ADD_TO_BASKET_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88743668,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Item should be successfully added to basket",
+            "match": {
+              "location": "AddBasket_stepdef.item_should_be_successfully_added_to_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add To Basket",
+    "description": "As a Customer\r\nI want to be able to add items to my basket\r\nSo that I can purchase them",
+    "id": "add-to-basket",
+    "keyword": "Feature",
+    "uri": "features/AddToBasket.feature"
+  }
+]
